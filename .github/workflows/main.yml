@@ -35,4 +35,4 @@ jobs:
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
             name: 20220062
             location: 'france central'
-            file : Dockerfile
+            secure-environment-variables: ${{ secrets.API_KEY }}
